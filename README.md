@@ -24,8 +24,9 @@ A basic script to output filesystem timestamps to a CSV file for experiementatio
 3. create `input` folder manually or double click `timestamps.py` to generate one automatically
 4. Place test files in`input` folder
 5. Double click `timestamps.py`
-6. Open `output.csv` to see timestamps
-7. Edit files and repeat to see the times change
+6. If fails to execute, open terminal to funWithTimestamps directory and run `python timestamps.py`
+7. Open `output.csv` to see timestamps
+8. Edit files and repeat to see the times change
 
 ## Mac/Linux executable instructions
 
