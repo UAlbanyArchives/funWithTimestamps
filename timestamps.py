@@ -6,6 +6,9 @@ __location__ = os.path.dirname(os.path.realpath(__file__))
 inputDir = os.path.join(__location__, "input")
 outputDir = os.path.join(__location__, "output.csv")
 
+if not os.path.exists(inputDir):
+	os.mkdir(inputDir)
+
 filesOut = [["Filename", "MTime", "ATime", "CTime", "Bytes"]]
 
 for root, dirs, files in os.walk(inputDir):
