@@ -8,6 +8,7 @@ build/
 dist/
 timestamps.spec
 input/*
+output.csv
 
 # C extensions
 *.so
