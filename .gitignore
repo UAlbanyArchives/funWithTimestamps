@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# custom
+build/
+dist/
+timestamps.spec
+input/*
+
 # C extensions
 *.so
 
